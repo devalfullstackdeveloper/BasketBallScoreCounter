@@ -8,7 +8,7 @@ const Round4 = ({navigation,route}) => {
    
 
   const[scoreTeamA3, setscoreTeamA3] = useState(route.params.scoreTeamA3);
-  const[scoreTeamB3, setscoreTeamB3] = useState(route.params.scoreTeamA3);
+  const[scoreTeamB3, setscoreTeamB3] = useState(route.params.scoreTeamB3);
   const [scoreTeamA2, setscoreTeamA2] =  useState(route.params.scoreTeamA2);
   const [scoreTeamB2, setscoreTeamB2] = useState(route.params.scoreTeamB2);
   const[teamBName, setteamBName] = useState(route.params.teamBName);
