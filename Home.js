@@ -6,18 +6,18 @@ const Home = ({navigation}) => {
 
     const openPrv = () => {
         Linking.openURL(
-          `https://elit-blogs.blogspot.com/2021/01/fun-alphabet-and-numbers-2021.html`,
+          `https://privacypolicybyabc.blogspot.com/2020/03/jkd-softsolutions.html`,
         ).catch((err) => alert('Please check for the App Store'));
       };
     
 
       let text =
-      "Want to Learn alphabets and numbers?\n\nLet's make learning fun..\nDownload Fun Alphabets and Numbers 2021";
+      "Want to Make Basketball counting easy?\n\n Download Easy Basketball Scorer";
     if (Platform.OS === 'android')
       text = text.concat(
-        'https://play.google.com/store/apps/details?id=com.fun.alphanum2021',
+        'https://play.google.com/store/apps/details?id=com.basketballscorecounter',
       );
-    else text = text.concat('http://itunes.apple.com/app/id1547972296');
+    else text = text.concat('http://itunes.apple.com/app/id1550571910');
 
     return(
         <View style={GlobalStyles.mainView} >
@@ -32,14 +32,14 @@ const Home = ({navigation}) => {
             onPress={()=>
                 Share.share(
                     {
-                      subject: 'Download Fun Alphabet and Numbers 2021 App Now',
-                      title: 'Download Fun Alphabet and Numbers 2021 App Now',
+                      subject: 'Download Easy Basketball Scorer',
+                      title: 'Download Easy Basketball Scorer',
                       message: text,
-                      url: 'app://Fun Alphabet and Numbers 2021 ',
+                      url: 'app://Download Easy Basketball Scorer ',
                     },
                     {
                       // Android only:
-                      dialogTitle: 'Fun Alphabet and Numbers 2021 App',
+                      dialogTitle: 'Download Easy Basketball Scorer',
                       // iOS only:
                       excludedActivityTypes: [],
                     },
