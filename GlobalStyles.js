@@ -10,7 +10,7 @@ buttonView:{
     alignSelf:'center'
 },
 buttonHome: {
-    backgroundColor:'#022a67',
+    backgroundColor:'#75be38',
     alignSelf:'center',
     width: '40%',
     alignItems: 'center',
@@ -26,7 +26,7 @@ roundText:{
     fontSize: 30,
 },
 buttonPoints: {
-    backgroundColor:'#022a67' ,
+    backgroundColor:'#75be38' ,
     paddingTop:8,
     paddingBottom:8,
     borderRadius: 10,
